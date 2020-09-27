@@ -1,0 +1,3 @@
+ab -n 100 -c 100 -p post.json -T 'application/json' http://127.0.0.1:8080/post
+
+docker run -d --name mycontainer -p 127.0.0.1:8080:80 myimage
